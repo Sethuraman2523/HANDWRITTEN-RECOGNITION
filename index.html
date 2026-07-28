@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disease Prediction Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2><i class="fa-solid fa-heart-pulse"></i> MedAI</h2>
+
+<ul>
+
+<li class="active">
+<i class="fa-solid fa-house"></i>
+Dashboard
+</li>
+
+<li>
+<i class="fa-solid fa-user"></i>
+Patient Details
+</li>
+
+<li>
+<i class="fa-solid fa-notes-medical"></i>
+Prediction
+</li>
+
+<li>
+<i class="fa-solid fa-chart-line"></i>
+Analytics
+</li>
+
+<li>
+<i class="fa-solid fa-file-waveform"></i>
+Reports
+</li>
+
+<li>
+<i class="fa-solid fa-gear"></i>
+Settings
+</li>
+
+<li>
+<i class="fa-solid fa-right-from-bracket"></i>
+Logout
+</li>
+
+</ul>
+
+</div>
+
+<!-- Main Content -->
+
+<div class="main">
+
+<div class="topbar">
+
+<h1>Disease Prediction Dashboard</h1>
+
+<div class="profile">
+
+<img src="https://i.pravatar.cc/45">
+
+<span>Doctor</span>
+
+</div>
+
+</div>
+
+<!-- Cards -->
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Total Patients</h3>
+
+<h1>324</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Predictions</h3>
+
+<h1>275</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Accuracy</h3>
+
+<h1>97.5%</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Today's Cases</h3>
+
+<h1>18</h1>
+
+</div>
+
+</div>
+
+<!-- Prediction Form -->
+
+<div class="content">
+
+<div class="left">
+
+<h2>Patient Information</h2>
+
+<form>
+
+<input type="text" placeholder="Patient Name">
+
+<input type="number" placeholder="Age">
+
+<select>
+
+<option>Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+<input type="number" placeholder="Blood Pressure">
+
+<input type="number" placeholder="Glucose">
+
+<input type="number" placeholder="Cholesterol">
+
+<input type="number" placeholder="BMI">
+
+<button type="submit">
+
+Predict Disease
+
+</button>
+
+</form>
+
+</div>
+
+<div class="right">
+
+<h2>Prediction Result</h2>
+
+<div class="result">
+
+<div class="circle">
+
+85%
+
+</div>
+
+<h3>High Risk</h3>
+
+<p>
+
+Heart Disease Probability
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
